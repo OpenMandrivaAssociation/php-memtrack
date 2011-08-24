@@ -6,7 +6,7 @@
 Summary:	PHP extension to watch (unusually high) memory consumption in PHP scripts
 Name:		php-%{modname}
 Version:	0.2.0
-Release:	%mkrel 7
+Release:	%mkrel 8
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/memtrack/
