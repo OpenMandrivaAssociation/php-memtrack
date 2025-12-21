@@ -12,6 +12,11 @@ License:	PHP License
 URL:		https://pecl.php.net/package/memtrack/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Source1:	memtrack.ini
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	apache-devel >= 2.2.0
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
